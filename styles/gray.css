@@ -1,0 +1,5 @@
+/* Gray Style */
+
+body {background:#e4e4e4 url(gray/bg.png) repeat-x;color:#1e1e1e;font:75%/125% Arial, Sans-Serif}
+a, a:visited {color:#901808}
+#nav {background:#313131 url(gray/menu.png) no-repeat;}

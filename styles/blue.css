@@ -1,0 +1,5 @@
+/* blue Style */
+
+body {background:#c6d1d5 url(blue/bg.png) repeat-x;color:#1e1e1e;font:75%/125% Arial, Sans-Serif}
+a, a:visited {color:#901808}
+#nav {background:#313131 url(blue/menu.png) no-repeat;}

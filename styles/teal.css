@@ -1,0 +1,5 @@
+/* teal Style */
+
+body {background:#c6d5cd url(teal/bg.png) repeat-x;color:#1e1e1e;font:75%/125% Arial, Sans-Serif}
+a, a:visited {color:#901808}
+#nav {background:#313131 url(teal/menu.png) no-repeat;}

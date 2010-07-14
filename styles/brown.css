@@ -1,0 +1,5 @@
+/* brown Style */
+
+body {background:#d5ccc6 url(brown/bg.png) repeat-x;color:#1e1e1e;font:75%/125% Arial, Sans-Serif}
+a, a:visited {color:#901808}
+#nav {background:#313131 url(brown/menu.png) no-repeat;}

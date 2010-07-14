@@ -1,0 +1,50 @@
+*** Newsport Changelog ***
+
+
+2009.09.17 - version 2.0.4
+  * footer.php - Now adsense 300x250 ad works (line 35).
+  
+  * single.php - Adsense now centered (line 35-39).
+
+
+
+2009.09.13 - version 2.0.3
+  * index.php - Now adsense 300x250 ad works (line 30).
+
+
+2009.08.28 - version 2.0.2
+  * /includes/theme-options.php - Fixed wrong description of the "Enable Archives" option.
+
+  * /functions/* - New Framework 1.07
+  * /lang/newsport.po - Added language file. See: http://www.woothemes.com/2009/08/how-to-translate-a-theme/
+  * Added gettext functions to template php files to support localization.
+
+2009.08.26 - version 2.0.1
+  * /includes/theme-options.php - Fixed subscribe to e-mail
+  * header.php - changed e-mail (line 69)
+
+2009.08.06 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general & dynamic images options
+  * archive.php - Fixed checkbox options ( $var == 'true' instead of just $var ) & tweaked woo_get_image()
+    single.php
+    footer.php
+    index.php
+
+2009.06.11 - version 1.0.2
+ * functions.php - Upgrade (get_categories fix)
+ * /includes/js/tabs.js  - Updated to newer version
+ 
+2009.03.26 - version 1.0.1
+	* 404.php - Removed bloat code
+	* header.php - fixed validation issue with custom logo
+	
+2009.02.27 - version 1.0
+	* First release!

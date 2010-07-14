@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: newsport/includes/theme-comments.php:16
+msgid " | Edit"
+msgstr ""
+
+#. Text in function
+#: newsport/archive.php:35
+msgid "\"><span class=\"serif\">Read the rest of this entry &raquo;</span></a>"
+msgstr ""
+
+#. Text in function
+#: newsport/comments.php:19
+msgid "% Comments"
+msgstr ""
+
+#. Text in function
+#: newsport/search.php:18
+msgid "% Comments &#187;"
+msgstr ""
+
+#. Text in function
+#: newsport/includes/theme-comments.php:16
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: newsport/search.php:24
+#: newsport/archive.php:50
+msgid "&laquo; Previous Entries"
+msgstr ""
+
+#. Text in function
+#: newsport/search.php:18
+msgid "1 Comment &#187;"
+msgstr ""
+
+#. Text in function
+#: newsport/includes/theme-comments.php:9
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#. Text in function
+#: newsport/single.php:15
+#: newsport/archive.php:35
+msgid "<p class=\"serif\">Read the rest of this entry &raquo;</p>"
+msgstr ""
+
+#. Text in function
+#: newsport/page.php:9
+msgid "<p class=\"serif\">Read the rest of this page &raquo;</p>"
+msgstr ""
+
+#. Text in echo
+#: newsport/includes/theme-widgets.php:107
+msgid "All Categories"
+msgstr ""
+
+#. Text in echo
+#: newsport/footer.php:75
+msgid "All rights reserved."
+msgstr ""
+
+#. Text in echo
+#: newsport/header.php:11
+#: newsport/header.php:12
+msgid "Archive"
+msgstr ""
+
+#. Text in echo
+#: newsport/archive.php:15
+#: newsport/archive.php:17
+#: newsport/archive.php:19
+msgid "Archive for"
+msgstr ""
+
+#. Text in echo
+#: newsport/archive.php:11
+msgid "Archive for the"
+msgstr ""
+
+#. Text in echo
+#: newsport/archive.php:21
+msgid "Author Archive"
+msgstr ""
+
+#. Text in echo
+#: newsport/header.php:8
+msgid "Author Archives"
+msgstr ""
+
+#. Text in echo
+#: newsport/archive.php:23
+msgid "Blog Archives"
+msgstr ""
+
+#. Text in echo
+#: newsport/template-sitemap.php:19
+#: newsport/template-archives.php:24
+msgid "Categories"
+msgstr ""
+
+#. Text in echo
+#: newsport/archive.php:11
+msgid "Category"
+msgstr ""
+
+#. Text in echo
+#: newsport/template-sitemap.php:38
+msgid "Comments"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in echo
+#: newsport/footer.php:77
+msgid "Designed by"
+msgstr ""
+
+#. Text in echo
+#: newsport/header.php:69
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: newsport/404.php:6
+msgid "Error 404: Page Not Found"
+msgstr ""
+
+#. Text in echo
+#: newsport/includes/tabber.php:6
+msgid "Featured"
+msgstr ""
+
+#. Text in echo
+#: newsport/footer.php:70
+#: newsport/header.php:59
+msgid "Home"
+msgstr ""
+
+#. Text in echo
+#: newsport/includes/tabber.php:5
+msgid "Latest Comments"
+msgstr ""
+
+#. Text in function
+#: newsport/comments.php:51
+msgid "Leave a Reply"
+msgstr ""
+
+#. Text in function
+#: newsport/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:65
+msgid "Log out"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:65
+msgid "Log out of this account"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:65
+msgid "Logged in as"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:73
+msgid "Mail (will not be published)"
+msgstr ""
+
+#. Text in echo
+#: newsport/template-archives.php:30
+msgid "Monthly Archives"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:70
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: newsport/search.php:25
+#: newsport/archive.php:51
+msgid "Next Entries &raquo;"
+msgstr ""
+
+#. Text in function
+#: newsport/comments.php:19
+msgid "No Comments"
+msgstr ""
+
+#. Text in function
+#: newsport/search.php:18
+msgid "No Comments &#187;"
+msgstr ""
+
+#. Text in function
+#: newsport/comments.php:19
+msgid "One Comment"
+msgstr ""
+
+#. Text in echo
+#: newsport/template-sitemap.php:13
+msgid "Pages"
+msgstr ""
+
+#. Text in echo
+#: newsport/search.php:13
+#: newsport/includes/tabber.php:25
+msgid "Permanent Link to"
+msgstr ""
+
+#. Text in echo
+#: newsport/includes/theme-widgets.php:12
+msgid "Photos on <span>flick<span>r</span></span>"
+msgstr ""
+
+#. Text in echo
+#: newsport/includes/tabber.php:4
+msgid "Popular"
+msgstr ""
+
+#. Text in echo
+#: newsport/search.php:18
+msgid "Posted in"
+msgstr ""
+
+#. Text in echo
+#: newsport/single.php:11
+#: newsport/archive.php:30
+msgid "Posted on"
+msgstr ""
+
+#. Text in echo
+#: newsport/archive.php:13
+msgid "Posts Tagged"
+msgstr ""
+
+#. Text in echo
+#: newsport/footer.php:76
+msgid "Powered by"
+msgstr ""
+
+#. Text in echo
+#: newsport/header.php:67
+msgid "RSS"
+msgstr ""
+
+#. Text in echo
+#: newsport/searchform.php:5
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: newsport/search.php:30
+#: newsport/header.php:7
+msgid "Search Results"
+msgstr ""
+
+#. Text in echo
+#: newsport/searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#. Text in function
+#: newsport/includes/theme-functions.php:1
+msgid "Settings"
+msgstr ""
+
+#. Text in echo
+#: newsport/404.php:8
+msgid "Sorry, but the page or file couldn't be found."
+msgstr ""
+
+#. Text in echo
+#: newsport/search.php:32
+msgid "Sorry, but your search term"
+msgstr ""
+
+#. Text in echo
+#: newsport/single.php:40
+#: newsport/archive.php:56
+#: newsport/page.php:20
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Text in echo
+#: newsport/header.php:13
+msgid "Tag Archive"
+msgstr ""
+
+#. Text in echo
+#: newsport/includes/tabber.php:7
+msgid "Tags"
+msgstr ""
+
+#. Text in function
+#: newsport/search.php:18
+msgid "Tags: "
+msgstr ""
+
+#. Text in echo
+#: newsport/template-archives.php:13
+msgid "The Last 30 Posts"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:10
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:76
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: newsport/404.php:9
+msgid "You can search for what you&#8217;re looking for"
+msgstr ""
+
+#. Text in function
+#: newsport/includes/theme-functions.php:1
+msgid "You cannot edit the Yoast Breadcrumbs options."
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:58
+msgid "You must be"
+msgstr ""
+
+#. Text in echo
+#: newsport/includes/theme-comments.php:12
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: newsport/search.php:8
+msgid "Your search topic"
+msgstr ""
+
+#. Text in echo
+#: newsport/single.php:11
+#: newsport/archive.php:30
+msgid "by"
+msgstr ""
+
+#. Text in echo
+#: newsport/single.php:11
+msgid "in"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:58
+msgid "logged in"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:19
+msgid "on"
+msgstr ""
+
+#. Text in echo
+#: newsport/search.php:32
+msgid "returned <strong>0</strong> results."
+msgstr ""
+
+#. Text in echo
+#: newsport/search.php:8
+msgid "returned the following articles:"
+msgstr ""
+
+#. Text in echo
+#: newsport/comments.php:58
+msgid "to post a comment."
+msgstr ""

@@ -1,0 +1,242 @@
+/*
+Theme Name: Newsport
+Theme URI: http://www.woothemes.com/
+Description: Newsport by WooThemes
+Version: 2.0.4
+Author: WooThemes
+Author URI: http://www.woothemes.com/
+*/
+
+/* Reset */
+a, abbr, acronym, address, area, b, bdo, big, blockquote, body, button, caption, cite,
+code, col, colgroup, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4,
+h5, h6, hr, html, i, images, ins, kbd, label, legend, li, map, object, ol, p, param, pre,
+q, samp, small, span, strong, sub, sup, table, tbody, td, textarea, tfoot, th, thead,
+tr, tt, ul, var {margin:0;padding:0;vertical-align:baseline}
+
+/* Defaults */
+:focus {outline:0}
+a, a:visited {text-decoration:none}
+a:hover {text-decoration:underline}
+abbr, acronym, dfn {border-bottom:1px dotted;cursor:help}
+blockquote {background:#EEE;border-left:2px solid #CCC;margin:0 0 1em}
+blockquote p {margin:.5em;padding:10px;}
+body {background:#1e1e1e;font:75%/125% Arial, Sans-Serif}
+code, pre {font-size:1em}
+del {text-decoration:line-through}
+dfn {font-style:italic;font-weight:bold}
+dt {font-weight:bold}
+dd {margin:0 0 1em 10px}
+fieldset {border:0}
+fieldset p {margin:0 0 5px}
+img {border:0;vertical-align:bottom}
+ins {text-decoration:none}
+h1 {font:24px/1.25em Georgia, Garamond, Serif}
+h2 {font:bold 15px Georgia, Garamond, Serif}
+h3 {font-size:1em}
+h4 {font:bold 1em/1.25em Georgia, Garamond, Serif}
+hr {margin:0 0 0.5em}
+p {margin:0 0 1em}
+ul, ol {list-style:none;margin:0 0 1em}
+textarea {font:1em Arial;overflow:auto}
+tt {display:block;margin:0.5em 0;padding: 0.5em 1em}
+
+/* body, a, headers */
+body {background:#D2C5B4 url(images/bg.png) repeat-x;color:#1e1e1e;font:75%/125% Arial, Sans-Serif}
+a, a:visited {color:#901808}
+h2 {color:#1e1e1e}
+
+/* Containers */
+#page {margin:0 auto;padding-bottom:40px;overflow:hidden;position:relative;width:980px}
+#main {background:#FFF;margin:15px 0 0;overflow:hidden;width:100%}
+#main-bot {background:url(images/bg-footer.png) no-repeat top center;height:5px;width:980px; margin:0 auto; padding:0;}
+
+/* Header */
+#header {height:115px; }
+#logo {text-align:center;padding-top:35px;}
+
+/* Navigation */
+#nav{background:#330100 url(images/menu.png) no-repeat;height:30px;line-height:1;list-style:none;margin:0;padding:0 0 0 10px;z-index:100;}
+#nav a{color:#fcfae3;display:block;line-height:30px;padding:0 10px;z-index:100;}
+#nav li a:hover,#nav li a:focus,#nav li.current_page_item a{color:#f5e598;}
+#nav li{float:left;}
+/* Style drop down list  */
+#nav li ul{left:-999em;position:absolute;width:170px;border:1px solid #999999; border-width:0 1px 1px 1px; }
+#nav li ul li{background:#FFF;}
+#nav li ul li a{color:#555 !important;font-size:12px;line-height:30px;width:150px;}
+#nav li ul li a:hover{background:#eee; text-decoration:none; color:#000;}
+#nav li ul ul{margin:-31px 0 0 170px;border-width:1px;}
+#nav li ul ul li a{line-height:30px;}
+#nav li:hover ul ul,#nav li.sfhover ul ul{left:-999em;}
+/* IE7 Fix  */
+#nav li:hover,#nav li.hover{position:static;}
+#nav li:hover ul,#nav li.sfhover ul,#nav li:hover ul,#nav li li:hover ul,#nav li.sfhover ul,#nav li li.sfhover ul{left:auto;}
+
+/* Subscribe */
+#nav .rss {padding:7px 20px 0 10px;}
+
+/* Content*/
+#content {display:inline;float:left;margin:15px -100% 0 180px;overflow:hidden;padding:0 0 20px;width:780px}
+#left {float:left;width:460px}
+#right {display:inline;float:left;margin:0 0 0 18px;width:300px}
+
+/* Tabs */
+#tabbed {background:#1e1e1e;width:460px}
+.idTabs {background:#444444;overflow:hidden;width:100%}
+.idTabs li {border-right:1px solid #1E1E1E;float:left}
+.idTabs li a, .idTabs li a:visited {color:#FFF;float:left;padding:8px 10px}
+.idTabs li a:hover, .idTabs li a:focus, .idTabs li .selected {background:#1E1E1E;color:#f5e598}
+#tabbed .content {padding:0 10px 10px}
+#tabbed .content li a {color:#FFF}
+#tabbed .content li {border-bottom:1px dotted #666;font:15px Georgia, Garamond, "Times New Roman", Times, serif;padding:5px 0}
+#tabbed #tags a { color: #fff; }
+
+/* Post */
+#content .post {margin:0 0 25px; line-height:22px;}
+#content .post ul {list-style:disc;margin:10px 0 1em 18px; list-style-position:inside;}
+#content .post ul.children {list-style:disc;margin:5px 0 0em 18px; list-style-position:inside;}
+#content .post ol {list-style:decimal;margin:10px 0 1em 22px; list-style-position:inside;}
+#content .post li {padding: 3px 0;}
+#content .post h1 {border:0;margin:0}
+#content .post h2 {font-size:20px;margin:5px 0 15px;}
+#content .post h3 {font-size:18px;margin:5px 0 15px;}
+#content .post h4 {font-size:16px;margin:0 0 5px;}
+#content .post h5 {font-size:14px;margin:0 0 5px;}
+#content .post h6 {font-size:12px;margin:0 0 5px;}
+#content .post .entry {font-size:1.2em}
+#content .post .entry .wp-caption {background-color:#EEEEEE;border:1px solid #DDDDDD;padding:4px 0 5px; text-align:center; margin:15px 0}
+#content .post .entry .wp-caption-text {padding:3px 0 0;font-size:11px; }
+#content .post .entry .thumbnail {margin:0px 8px 8px 0;display: block;padding: 3px;background: #fff;border: #CECFC6 1px solid;}
+#content .post .entry .aligncenter {margin: 10px auto 20px auto;display: block;}
+#content .post .entry .alignleft {margin: 10px 20px 8px 0;float: left;}
+#content .post .entry .alignright {margin: 10px 0px 8px 20px;float: right;}
+
+/* Breadcrumbs */
+#breadcrumbs {border-top:3px solid #9f907c;border-bottom:1px dotted #999;padding:5px}
+#breadcrumbs a {color:#1e1e1e}
+#breadcrumbs em {color:#9f1d0d;font-style:normal}
+
+/* Featured */
+#content .featured {border:1px solid #666;margin:0 0 10px;padding:0;width:458px}
+#content .featured h1 {font-size:20px;margin:5px 10px}
+#content .featured p {margin:0 10px 10px}
+#content .featured h1 a {color:#1E1E1E}
+
+/* Archive Post */
+#content .archive {border-top:1px dotted #999;margin:15px 0 25px;padding:15px 0 0}
+#content .archive h2 {font-size:1.5em}
+
+/* News Pics */
+#news-pics {background:#EDE9E4;border:solid #D9D6D2;border-width:1px 0;clear:both;color:#4c4742}
+#news-pics h2 {margin:5px 0 0 20px}
+#news-pics ul {border-top:1px solid #D9D6D2;list-style:none;margin:5px 18px 0 22px;overflow:hidden;height:1%}
+#news-pics ul li {border-left:1px solid #D9D6D2;float:left;margin:0 0 0 -1px;padding:9px;width:140px}
+#news-pics ul li.first {padding-left:0;width:140px}
+#news-pics ul li.last {padding-right:0;width:140px}
+#news-pics h3 {margin:5px 0 0}
+#news-pics p {font-size:.9em;line-height:1.2em;}
+#news-pics h2 {color:#6a655d}
+#news-pics h3 a {color:#5C4A32}
+
+/* Bottom */
+#sub #bottom {display:none}
+#bottom {background:url(images/bg.gif) repeat-y;margin:20px 0 0;padding:0 0 10px;overflow:hidden;width:100%}
+#bottom-right{float:left; width:300px;}
+
+/* Widgets */
+#widgets {display:inline;float:left;margin:0 0 0 10px;min-height:200px;width:645px}
+* html #widgets {height:300px}
+#widgets #one {float:left;padding:0 10px;width:140px; min-height:100px;}
+#widgets h2 {margin:0 0 10px;padding:0}
+#widgets .quote h2 {background:url(images/rss.gif) no-repeat;margin:0 0 10px;padding:0 0 0 22px}
+#widgets #one li {font-weight:bold;margin:0 0 4px}
+#widgets #two {float:left;padding:0 10px;width:220px; min-height:100px;}
+#widgets #two li {font-weight:bold;margin:10px 0 0}
+#widgets #two li a {color:#1e1e1e}
+#widgets #three {float:left;padding:0 10px;width:225px; min-height:100px;}
+#widgets #three li {margin:10px 0 0}
+#widgets #three li strong {font-size:1.1em}
+#widgets #three li a {color:#1e1e1e}
+#flickr a img {float: left;margin:5px 8px;display: block;padding: 3px;background: #fff;border: #CECFC6 1px solid;}
+#widgets .widget {margin:0 0 15px;}
+
+/* Ads */
+#advert_top { float:right;padding-top:30px; }
+#advert_125x125 img { margin-bottom:5px; }
+#advert_300x250 img { margin-bottom:10px; }
+#advert_content { background-color:#EDEDED; margin:5px 0 20px; padding:12px 0; text-align:center;}
+
+/* News */
+.news {float:left;width:300px;margin-bottom:5px;}
+.news h2 {border-top:3px solid #9f907c;padding:5px 0}
+.news h3 {border-top:1px dotted #999;padding:5px 0}
+.news p {margin:0 0 5px; line-height:18px;}
+.news h3.second {clear:both}
+.news img {float:left;margin:9px 10px 5px 0}
+
+/* Pagination */
+#prev-next {list-style:none}
+#prev-next #prev {float:left}
+#prev-next #next {float:right}
+
+/* Sidebar */
+#sidebar {float:left;padding:15px 0 20px 20px;width:140px}
+#sidebar h2 {margin:0 0 .5em}
+#sidebar ul {list-style:none;margin:0 0 1em}
+#sidebar ul li{line-height:20px;}
+#sidebar ul ul {list-style:none; margin:0;}
+#sidebar #qotd {color:#5c4a32;font:14px Georgia, "Times New Roman", Times, serif}
+#sidebar cite {color:#901808;font:italic bold 11px Arial, Helvetica, sans-serif;display:block;margin:5px 0 0}
+#sidebar li#qotd {color:#5c4a32}
+#sidebar cite {color:#901808}
+
+/* Footer */
+#sub #footer {border:0}
+#footer {border-top:1px solid #CCC;clear:both;color:#7A674C;padding:15px 10px 10px;text-align:center}
+#footer p {font-size:.9em;margin:0}
+#footer p img {vertical-align:middle}
+#footer ul {list-style:none;margin:0 0 1.5em}
+#footer ul li {display:inline;margin:0 10px}
+#footer ul li a:hover, #footer ul li a:focus, #footer ul li.current_page_item a {font-weight:bold}
+#footer p a {color:#7A674C}
+#footer ul li a {color:#5C4A32}	
+
+/* Image Alignment */
+img.centered {display:block;margin-left:auto;margin-right:auto}
+img.alignright {display:inline;margin:5px 0 15px 20px;padding:4px}
+img.alignleft {display:inline;margin:5px 20px 15px 0;padding:4px}
+.alignright {float:right}
+.alignleft {float:left}
+
+/* Comments */
+#comments #commentlist {list-style:none;margin:0 0 1em;padding:0;text-align:justify}
+#comments #commentlist li {list-style:none;margin:15px 0 3px;padding:5px 10px 3px}
+#comments .comment {padding:5px 0 10px 0}
+.commentlist p {font-size:1.2em}
+#comments #commentlist li.alt {background:#EEE}
+#comments cite.fn , #commentlist cite.fn a {color:#b32413;float:left;font:1.335em Georgia, Serif;font-weight:bold;padding:11px 0 0 12px;width:338px}
+#comments #commentlist p {clear:both;margin:10px 5px 10px 0}
+#comments #commentmetadata {font-weight:normal}
+#comments #commentform input.input {border:1px solid #CCC;font-size:1.1em;margin:5px 5px 1px 0;padding:2px;width:170px}
+#comments #commentform input.input:hover {background:#EEE}
+#comments #commentform textarea {border:1px solid #CCC;padding:2px;width:98%}
+#comments #commentform textarea:hover {background:#EEE}
+#comments #commentform #submit {}
+#comments #commentform p {margin:0 0 .5em}
+#comments #allowed-tags strong {display:block}
+#comments .nocomments {margin:0;padding:0;text-align:center}
+#comments .commentmetadata {display:block;margin:0}
+div.comment-author {background:#f6f4f1;margin:0 0 10px;overflow:hidden;width:100%;}
+div.comment-author .avatar {background:#fff;float:left;}
+div.comment-meta {float:right; padding: 13px 15px 0 0;}
+.reply {float:left;}
+h3#comments-number {border-top:1px dotted #999;color:#1e1e1e;font:1.665em Georgia, Serif;padding: 18px 0 18px 0px}
+#comments ul.children {margin: 0 0 0 20px}
+#respond h3{border-top:1px dotted #999;color:#1e1e1e;font:1.665em Georgia, Serif;padding: 18px 0}
+
+/* Misc */
+.fix{clear: both;height: 1px;margin: -1px 0 0;overflow: hidden}
+.fl{float: left}
+.fr{float: right}
+.ac{text-align: center}
+.ar{text-align: right}
